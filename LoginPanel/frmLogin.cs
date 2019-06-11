@@ -157,7 +157,7 @@ namespace LoginPanel
 
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit(); // ensure the application closes
+            Application.ExitThread(); // ensure the application process closes
         }
     }
 }
