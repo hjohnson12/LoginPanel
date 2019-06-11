@@ -20,7 +20,7 @@ and delete a file.
 * Simple implementation of a file watcher program that watches a source directory for changes and copies the changes to the destination directory. 
 ***Link to source***:  https://github.com/hjohnson12/FileSync
 
-***Not currently being worked on, waiting on XAML Islands release for further update***
+***NOTE: Not currently being worked on, waiting on XAML Islands release for further update***
 
 ### Screenshots
 
