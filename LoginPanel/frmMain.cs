@@ -35,32 +35,9 @@ namespace LoginPanel
             fl.Show();
         }
 
-        private void pcInfoLabel_Click(object sender, EventArgs e)
-        {
-            pcInfoLabel.BackColor = Color.LightSkyBlue;
-            infoPicBox.BackColor = Color.LightSkyBlue;
-
-            // open frmResourceInfo
-            frmResourceInfo fm = new frmResourceInfo();
-            fm.ShowDialog();
-        }
-
         private void frmMain_Load(object sender, EventArgs e)
         {
          
-        }
-
-        private void pcInfoLabel_MouseEnter(object sender, EventArgs e)
-        {
-            
-            pcInfoLabel.BackColor = Color.LightBlue;
-            infoPicBox.BackColor = Color.LightBlue;
-        }
-
-        private void pcInfoLabel_MouseLeave(object sender, EventArgs e)
-        {
-            pcInfoLabel.BackColor = Color.White;
-            infoPicBox.BackColor = Color.White;
         }
 
         private void directoryOptionsLabel_Click(object sender, EventArgs e)
